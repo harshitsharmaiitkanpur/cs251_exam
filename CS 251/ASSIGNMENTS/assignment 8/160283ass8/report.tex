@@ -1,0 +1,68 @@
+\documentclass[a4paper, 10pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=22mm,
+ top=22mm,
+ }
+
+\title{Latex Report on Time taken.\\CS251}
+\author{Harshit Sharma\\160283}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Scatter plots}
+
+\begin{figure}
+\centering
+\includegraphics[width=2\textwidth]{scatter1}
+ \caption{Scatter plot using 1 thread}
+ \label{fig:cc_get}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=2\textwidth]{scatter2}
+ \caption{Scatter plot using 2 threads}
+ \label{fig:cc_get}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=2\textwidth]{scatter3}
+ \caption{Scatter plot using 4 threads}
+ \label{fig:cc_get}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=2\textwidth]{scatter4}
+ \caption{Scatter plot using 8 threads}
+ \label{fig:cc_get}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=2\textwidth]{scatter5}
+ \caption{Scatter plot using 16 threads}
+ \label{fig:cc_get}
+\end{figure}
+
+\chapter{Line plot}
+
+\begin{figure}
+\centering
+\includegraphics[width=2\textwidth]{line plot3(b)}
+ \caption{Line plot showing average execution time taken versus number of elements using 1,2,4,8 or 16 threads}
+\end{figure}
+
+
+
+\end{document}
